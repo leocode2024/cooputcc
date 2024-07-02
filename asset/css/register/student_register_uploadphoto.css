@@ -1,0 +1,21 @@
+#image_preview {
+    display: block;
+    margin: 10px auto;
+    max-width: 71px;
+    max-height: 92px;
+    border-radius: 5px;
+  }
+  #image_icon {
+    font-size: 71px;
+    color: #ccc;
+    display: block;
+    margin: 10px auto;
+  }
+  .form-group {
+    text-align: center;
+  }
+  .form-group input[type="file"] {
+    display: inline-block;
+    width: auto;
+    margin: 0 auto;
+  }

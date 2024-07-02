@@ -1,0 +1,139 @@
+body {
+    background: url("/cooputcc/asset/img/webbackground.jpg") no-repeat
+      center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .btn-custom {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: transform 0.3s;
+    border: none;
+    min-width: 200px; /* Ensure the buttons are wide enough for the text */
+  }
+  .btn-custom:hover {
+    transform: translateY(-5px);
+  }
+  .btn-submit {
+    background-color: #5cb85c;
+    color: white;
+    flex: 1;
+  }
+  .btn-submit:hover {
+    background-color: #4cae4c;
+  }
+  .btn-cancel {
+    background-color: #d9534f;
+    color: white;
+    flex: 1;
+  }
+  .btn-cancel:hover {
+    background-color: #c9302c;
+  }
+  .header,
+  .footer {
+    background-color: #2c75b9;
+    color: white;
+  }
+  .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 0;
+  }
+  .header img {
+    height: 80px;
+    margin-left: 10px;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px 20px 5px 20px;
+    font-size: 12px;
+  }
+  .manual-link {
+    margin-right: 20px;
+    color: #ffd600;
+    text-decoration: none;
+  }
+  .manual-link:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  .header .titles {
+    margin-left: 20px;
+  }
+  .header .titles h3,
+  .header .titles h5 {
+    margin: 0;
+  }
+  .footer-address {
+    text-align: right;
+    line-height: 0.3;
+  }
+  .footer a {
+    color: #ffd600;
+    text-decoration: none;
+  }
+  .footer a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  .content {
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bold-text {
+    font-weight: bold;
+    color: #2c75b9;
+  }
+  .registration-form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 100%;
+    max-width: 1000px; /* Increased width */
+  }
+  .registration-form label {
+    text-align: left;
+    font-weight: bold;
+    color: #2c75b9; /* Blue color for the labels */
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-label i {
+    font-size: 0.75rem; /* Smaller size for the text */
+  }
+  .button-group {
+    display: flex;
+    justify-content: center;
+  }
+  .content-wrapper {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }

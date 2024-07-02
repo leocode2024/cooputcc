@@ -1,0 +1,127 @@
+body {
+    background: url('/cooputcc/asset/img/webbackground.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.btn-custom {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: transform 0.3s;
+    border: none;
+    flex: 1;
+}
+.btn-custom:hover {
+    transform: translateY(-5px);
+}
+.btn-login {
+    background-color: #FFD600;
+    color: black;
+}
+.btn-login:hover {
+    background-color: #FFD600;
+}
+.btn-back {
+    background-color: #777777;
+    color: white;
+}
+.btn-back:hover {
+    background-color: #777777;
+}
+.header, .footer {
+    background-color: #2C75B9;
+    color: white;
+}
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 0;
+}
+.header img {
+    height: 80px;
+    margin-left: 10px;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px 20px 5px 20px;
+    font-size: 12px;
+}
+.manual-link {
+    margin-right: 20px;
+    color: #FFD600;
+    text-decoration: none;
+}
+.manual-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+.header .titles {
+    margin-left: 20px;
+}
+.header .titles h3, .header .titles h5 {
+    margin: 0;
+}
+.footer-address {
+    text-align: right;
+    line-height: 0.3;
+}
+.footer a {
+    color: #FFD600;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.content {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form {
+    background: #5bc0de;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 100%;
+    max-width: 800px;
+}
+.login-form label {
+    text-align: left;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.bold-text {
+    font-weight: bold;
+}
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+.forgot-password {
+    margin-top: 30px;
+    color: black;
+    text-align: center;
+}
